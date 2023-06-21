@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;@400;@500;600;@700;@800&display=swap');
+
+* 
+  {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+
+  }
+
+   header {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;  
+          padding: 30px 100px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          z-index: 100;
+
+
+
+  }
+
+  .aboutus {
+      color: #ff101f ;
+      font-size: 1.7em;
+      cursor: default;
+      
+  }
+  .nav a  {
+    color: black    ;
+    font-size: 1.1em;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .8) ;   
+    margin-left: 12px;
+    text-decoration: none;
+    padding: 6px 15px;
+    font-weight: 600;
+    border-radius: 2opx;
+
+
+  }
+
+   .nav a:hover {
+         border-bottom: 2px solid blue;
+
+
+   }
+
+   .nav  .btnLogin-popup 
+   {
+      width: 130px;
+      height: 50px;
+      background: transparent;
+      border: 2px solid #fff;
+      outline: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1.1em;
+      color: #fff;
+      font-weight: 600;
+      margin-left: 40px;
+      transition: .5s;
+
+
+
+
+   }
+
+   .nav  .btnLogin-popup:hover
+   {
+  background: #fff;
+  color: #162938;
+
+   }
+   .Background {
+    width: 100%;
+    padding: 78px 0px;
+    position: relative;
+       width: 100%;
+       height: 100vh;
+       background-image: url("pexels-vaibhav-jadhav-3218467.jpg");
+       background-size: cover;
+       background-position: center;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+}
+.Background img
+{
+    height: auto;
+    width: 420px;
+}
+.about-text
+{
+    width: 550px;
+
+}
+.main
+{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color: white;
+    font-size:80px ;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+.about-text h5
+{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+
+}
+.about-text p{
+
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    
+}

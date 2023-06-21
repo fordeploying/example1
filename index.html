@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Welcome to Cooking Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2 class="logo">Cooking</h2>
+        <nav class="navigation">
+                <a href="index.html" target="_blank">Home</a>    
+                <a href="contact.html" target="_blank">Contact</a>
+                <a href="aboutus.html" target="_blank">About us</a>
+                       
+        </nav>
+    </header>
+
+     <section class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="Register()">Register</button>
+ 
+            </div>
+            <div class="social-icons">
+                <img src="fb.png">
+                <img src="gp.png">
+        </div>  
+        <form id="login"    class="input-group">
+            <input type="text" class="input-field" placeholder="Enter Email" required>
+            <input type="text" class="input-field" placeholder="Enter Password" required>
+            <input type="checkbox" class="chech-box"><span>Remember Password</span>
+            <button type="submit" class="submit-btn">Log in</button>
+
+        </form>
+        <form id="register" class="input-group">
+            <input type="text" class="input-field" placeholder="Enter Email" required>
+            <input type="email" class="input-field" placeholder="Email Id" required>
+            <input type="text" class="input-field" placeholder="Enter Password" required>
+            <input type="checkbox" class="chech-box"><span>I agree to Terms and Conditions</span>
+            <button type="submit" class="submit-btn">Register</button>
+
+        </form>
+       
+
+        </div>  
+
+
+
+
+     </div>
+
+     <script>
+     var x = document.getElementById("login");
+     var y = document.getElementById("register");
+     var z = document.getElementById("btn");
+
+     function Register()  {
+        x.style.left= "-400px";
+        y.style.left= "50px";
+        z.style.left= "110px";
+
+     }
+     function login()  {
+        x.style.left= "50px";
+        y.style.left= "450px";
+        z.style.left= "0px";
+
+     }
+
+     </script>
+
+     </section>
+     <section class="page">
+        <h1>PLACE TO GO</h1>
+        <P>We are waiting for you to choose us</P>
+
+        <div class="row">
+            <div class="home">
+                <h4>COOKING</h4>
+                <P>Cooking , cookery, or culinary arts is the art, science and craft of using
+                     heat to improve the palability,digestibility,nutrition, or safety of food.
+                     
+                    
+                </P>
+             </div>
+        <div class="home">
+                <h4>NEMRAC FOOD PARK</h4>
+                <P>Is the one of most famouse food park in carmen, 
+                    many people amaze by thier food and its affordable for all ages.
+                </P>
+            </div>
+            <div class="home">
+                <h4>SHUTUKILL</h4>
+            <p>sutukil (or STK) derived its name from three popular Filipino cooking techniques:
+                 “Su” for sugba (to grill, broil, or barbecue), “tu” for tuwa (to stew), and “kil” 
+                    for kilaw (to eat uncooked fish)..</p>
+            
+        </div>
+        
+        
+     </section>
+
+     <section class="images">
+        <h1>DISCOVER</h1>
+        
+
+        <div class="row">
+            
+            <div class="images1">
+                <img src="pexels-nicole-michalou-6061743.jpg." width="300" height="300">
+                <div class="layer">
+
+                </div>
+                
+                    
+                  
+            </div>
+                <div class="images1">
+                    <img src="pexels-photo-2664443.jpeg"width="300" height="300">
+                    <div class="layer">
+
+                    </div>
+                    
+                        
+                      
+                 </div>
+                    <div class="images1">
+                        <img src="pexels-photo-2884732.jpeg"width="300" height="300">
+                        <div class="layer">
+
+                        </div>
+                        
+                          
+                        
+
+                    </div>
+                
+                
+        </div>
+     </section>
+     
+     <section class="images">
+        <h1>CARMEN FOOD PARK</h1>
+        
+
+        <div class="row">
+            
+            <div class="images1">
+                <img src="275639360_691256108973380_6293504314833872375_n.jpg" width="300" height="300">
+                <div class="layer">
+
+                </div>
+                
+                    
+                  
+            </div>
+                <div class="images1">
+                    <img src="275662707_691256088973382_1370270859984992446_n.jpg"width="300" height="300">
+                    <div class="layer">
+
+                    </div>
+                    
+                        
+                      
+                </div>
+                    <div class="images1">
+                        <img src="275683174_691256235640034_8645633400941714908_n.jpg"width="300" height="300">
+                        <div class="layer">
+
+                        </div>
+                        
+                          
+                        
+
+                    </div>
+     </section>
+ 
+
+</body>
+
+</html>
